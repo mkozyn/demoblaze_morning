@@ -23,7 +23,7 @@ describe('E2E FLOW', () => {
     signUp.windowAlert();
   });
 
-  it('should provide an ability to add product in to the cart', () => {
+  it('should provide an ability to login in to the app', () => {
     homePage.visit();
     homePage.clickTheSignUpLink();
     signUp.fillTheFields(user);
